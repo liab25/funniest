@@ -1,13 +1,14 @@
 from setuptools import setup
 
 setup(name='funniest99',
-      version='0.2',
+      version='0.3',
       description='The funniest joke in the world',
-      long_description=readme()
-      url='http://github.com/storborg/funniest',
+      long_description=readme(),
+      url='https://github.com/liab25/funniest',
       author='Flying Circus',
       author_email='flyingcircus@example.com',
       license='MIT',
+      scripts=['bin/funniest-joke'],
       packages=['funniest'],
       install_requires=['markdown'],
       zip_safe=False)
